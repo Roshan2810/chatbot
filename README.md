@@ -24,10 +24,12 @@ PORT = <YOUR_PORT>
 ```sh
 npm start
 ```
+***The client will start running on default Port i.e 3000.***
 * cd into /chatbot-server and execute 
 ```sh
 npm run start:local
 ```
+***The server will start running on the PORT defined in the env file***
 
 ## Acknowledgments
 
