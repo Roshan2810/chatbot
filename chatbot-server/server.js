@@ -22,4 +22,4 @@ io.on('connection', (socket) => {
     });
 })
 
-server.listen(4000, () => { console.log("listening on *:4000"); });
+server.listen(process.env.PORT, () => { console.log(`listening on *: ${process.env.PORT}`); });
